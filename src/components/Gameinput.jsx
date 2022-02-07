@@ -74,15 +74,15 @@ e.preventDefault();
       <input type="number" placeholder="gameprice" name="gameprice" onChange={inputevent}/><br/> 
      
       is this game for kids?
-        <br/>
+        
         <input type="radio"
                name="agree" 
                value="yes" onChange={inputevent} />Yes
-        <br/>
+     
         <input type="radio"
                name="agree" 
                value="no" onChange={inputevent}/>No
-        <br></br>
+     
 
 
 
@@ -97,23 +97,23 @@ e.preventDefault();
         </select><br/>
 
         Choose languages you know:
-        <br/>
+      
         <input type="checkbox" 
-               name="C" 
-               value="c" onChange={inputevent}/>C
-        <br/>
+               name="action" 
+               value="action" onChange={inputevent}/>action
+       
         <input type="checkbox" 
-               name="C++" 
-               value="c++" onChange={inputevent}/>C++
-        <br/>
+               name="adventure" 
+               value="adventure" onChange={inputevent}/>adventure
+      
         <input type="checkbox" 
-               name="Java" 
-               value="java" onChange={inputevent}/>Java
-        <br/>
+               name="mystery" 
+               value="mestery" onChange={inputevent}/>mestery
+     
         <input type="checkbox" 
-               name="Python" 
-               value="python"/>Python
-        <br/>
+               name="fiction" 
+               value="fiction" onChange={inputevent}/>fiction
+       
 
 
       <input type="submit" value="submit"/>

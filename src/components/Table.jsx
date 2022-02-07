@@ -43,7 +43,7 @@ import React,{useState,useEffect} from 'react';
            <td>{e.gameauthor}</td>
            <td>{e.gametags}</td>
            <td className="gameprice">{e.gameprice}</td>
-           <td>{e.forkids==true?"yes":"no"}</td>
+           <td>{e.forkids===true?"yes":"no"}</td>
            <td className="gamerating">{e.gamerating}</td>
 
                </tr>
