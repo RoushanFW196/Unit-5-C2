@@ -109,7 +109,7 @@ e.preventDefault();
         <input type="checkbox" 
                name="mystery" 
                value="mestery" onChange={inputevent}/>mestery
-     
+     <br/>
         <input type="checkbox" 
                name="fiction" 
                value="fiction" onChange={inputevent}/>fiction
