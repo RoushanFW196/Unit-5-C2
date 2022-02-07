@@ -9,6 +9,56 @@
       "gamedesc": "Titanfall is a series of video games that mainly feature first-person shooter games",
       "gamerating": "5",
       "id": 1
+    },
+    {
+      "gamename": "mario",
+      "gameauthor": "asd",
+      "gametags": true,
+      "gameprice": "123",
+      "forkids": false,
+      "gamedesc": "zxc",
+      "gamerating": "4",
+      "id": 2
+    },
+    {
+      "gamename": "mario",
+      "gameauthor": "wert",
+      "gametags": true,
+      "gameprice": "234",
+      "forkids": true,
+      "gamedesc": "fgh",
+      "gamerating": "3",
+      "id": 3
+    },
+    {
+      "gamename": "mario",
+      "gameauthor": "wert",
+      "gametags": true,
+      "gameprice": "234",
+      "forkids": true,
+      "gamedesc": "fgh",
+      "gamerating": "3",
+      "id": 4
+    },
+    {
+      "gamename": "",
+      "gameauthor": "",
+      "gametags": "",
+      "gameprice": "",
+      "forkids": "",
+      "gamedesc": "",
+      "gamerating": "",
+      "id": 5
+    },
+    {
+      "gamename": "snipr",
+      "gameauthor": "",
+      "gametags": "",
+      "gameprice": "",
+      "forkids": "",
+      "gamedesc": "",
+      "gamerating": "",
+      "id": 6
     }
   ]
 }
