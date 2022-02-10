@@ -20,7 +20,7 @@ const inputevent=(e)=>{
     const name=e.target.name;
     let value=e.target.value
   
-     value = e.target.type === 'checkbox' ?e.target.checked : e.target.value;
+    // value = e.target.type === 'checkbox' ?e.target.checked : e.target.value;
   
     setForm({...form,[name]:value})
   
@@ -62,27 +62,38 @@ e.preventDefault();
     return(
         <form id="addgame" onSubmit={handleSubmit}>
       <input type="text" placeholder="gamename" name="gamename" onChange={inputevent}/><br/>
-      <input type="text" placeholder="gameauthor" name="gameauthor" onChange={inputevent}/><br/>
+       <input type="text" placeholder="gameauthor" name="gameauthor" onChange={inputevent}/><br/>
       <label>tags</label><br/>
-      <input type="checkbox" value="action" name="gametags" onChange={inputevent} >action</input>
-      <label>action</label><br/>
+      <br/>
+        <input type="checkbox" 
+               name="gametags" 
+               value="action" onChange={inputevent}/>action
+       <br/>
+        <input type="checkbox" 
+              name="gametags"
+               value="adventure" onChange={inputevent}/>adventure
+      <br/>
+        <input type="checkbox" 
+              name="gametags"
+               value="mestery" onChange={inputevent}/>mestery
+     <br/>
+        <input type="checkbox" 
+            name="gametags"
+               value="fiction" onChange={inputevent}/>fiction
+<br/>
 
-      <input type="checkbox" value="adventure" name="gametags" onChange={inputevent} />
-      <label>adventure</label><br/>
-      <input type="checkbox" value="thriller" name="gametags" onChange={inputevent}/>
-      <label>thriller</label><br/>
       <input type="number" placeholder="gameprice" name="gameprice" onChange={inputevent}/><br/> 
      
-      is this game for kids?
-        
+       is this game for kids?
+        <br/>
         <input type="radio"
                name="agree" 
                value="yes" onChange={inputevent} />Yes
-     
+     <br/>
         <input type="radio"
                name="agree" 
                value="no" onChange={inputevent}/>No
-     
+      <br/>
 
 
 
@@ -94,28 +105,10 @@ e.preventDefault();
            <option value="3">3</option>
            <option value="4">4</option>
            <option value="5">5</option>
-        </select><br/>
+        </select><br/> 
 
-        Choose languages you know:
-      
-        <input type="checkbox" 
-               name="action" 
-               value="action" onChange={inputevent}/>action
-       
-        <input type="checkbox" 
-               name="adventure" 
-               value="adventure" onChange={inputevent}/>adventure
-      
-        <input type="checkbox" 
-               name="mystery" 
-               value="mestery" onChange={inputevent}/>mestery
-     <br/>
-        <input type="checkbox" 
-               name="fiction" 
-               value="fiction" onChange={inputevent}/>fiction
-       
-
-
+    
+<br/>
       <input type="submit" value="submit"/>
         </form>
     )
